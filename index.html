@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <title>Gallery</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+
+    <body>
+        <nav class="menu">
+            <i class="bi-camera-fill" href="#" alt="Logo"></i>
+            <div class="nav-bar">
+                <a class="nav-bar-link" href="#">Link</a>
+                <a class="nav-bar-link" href="#">Link</a>
+                <a class="nav-bar-link" href="#">Link</a>
+                <a class="nav-bar-link" href="#">Link</a>
+            </div>
+            <i class="bi-person-fill" alt="Person"></i>
+        </nav>
+
+        <section class="profile-summary">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at mauris diam. Ut in rhoncus tellus.</p>
+        </section>
+
+        <section id="alert" class="page-section">
+            <button class="bi-x-circle" id="button" onclick="hide()"></button>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at mauris diam. Ut in rhoncus tellus. Phasellus blandit ligula eu vehicula volutpat. Vestibulum luctus vehicula nulla nec tincidunt. Nunc at tempus massa. Quisque commodo nibh vitae tellus feugiat, ut malesuada ipsum convallis. Vivamus vitae urna id sapien porta aliquet eget in dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </section>
+        
+        <div class="gallery">
+            <img src="https://placeimg.com/640/480/nature/grayscale/1.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/2.jpg">
+            <img class="img-grid-row-2 img-grid-col-2" src="https://placeimg.com/640/480/nature/grayscale/3.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/4.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/5.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/6.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/7.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/8.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/9.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/10.jpg">
+            <img src="https://placeimg.com/640/480/nature/grayscale/11.jpg">
+        </div>
+
+        <footer></footer>
+
+        <script>  
+            function hide() {
+                var div = document.getElementById("alert");  
+                if (div.style.display !== "none") {  
+                    div.style.display = "none";  
+                } 
+            }
+        </script>  
+    </body>
+</html>
